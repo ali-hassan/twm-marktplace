@@ -34,10 +34,7 @@ yarn start
 
 <h2>5. After I fixed the error the program ran smoothly, but when I wanted to connect the wallet an error occurred that Goerli was no longer supported so I changed the network from Goerli to Sepolia</h2>
 <br>
-<h2>- before changing the network: </h2>
-<br>
-<img src="./src/assets/img-report/goerli-network.png"/>
-<h2>- after changing the network: </h2>
+<h2>changing the network to sepolia: </h2>
 <br>
 <img src="./src/assets/img-report/change-network-to-sepolia.png"/>
 <br>
