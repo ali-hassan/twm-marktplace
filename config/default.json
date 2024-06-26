@@ -1,7 +1,7 @@
 {
   "mongoURI": "mongodb+srv://juan0621:MvWWLl7gxoCRQ3Vc@cluster0.uvtlxbh.mongodb.net/staking_db?retryWrites=true&w=majority",
   "jwtSecret": "twm",
-  "jsonRPC": "https://eth-goerli.g.alchemy.com/v2/26t6Od2wqkhFyeYUyM9wUH1k9T-nMx_J",
+  "jsonRPC": "https://eth-sepolia.g.alchemy.com/v2/26t6Od2wqkhFyeYUyM9wUH1k9T-nMx_",
   "AUTH_PRIVATE_KEY": "5264f965449a20f8aad821c2300fcc22424a20be785356116d848c1bfc152a63",
   "twmAddress": "0x6109351c250DE3fdb6B94B5e50b01a14aC94886a",
   "twmBank": "0x19367c16d694ec647d311392090e880d6a92a809",

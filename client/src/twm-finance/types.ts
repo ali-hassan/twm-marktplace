@@ -2,7 +2,7 @@ import { BigNumber } from "@ethersproject/bignumber";
 
 export enum ChainId {
   MAINNET = 1,
-  GOERLI = 5,
+  SEPOLIA = 11155111,
 }
 
 export type ContractName = string;

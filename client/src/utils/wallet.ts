@@ -9,7 +9,7 @@ export const BSC_BLOCK_TIME = 3;
 
 export const BASE_ETHEREUM_SCAN_URLS = {
   [ChainId.MAINNET]: "https://etherscan.io/",
-  [ChainId.GOERLI]: "https://goerli.etherscan.io/",
+  [ChainId.SEPOLIA]: "https://sepolia.etherscan.io/",
 };
 
 export const BASE_ETHEREUM_SCAN_URL = BASE_ETHEREUM_SCAN_URLS[ChainId.MAINNET];
@@ -36,20 +36,20 @@ export const setupNetwork = async () => {
       // if it is not, then install it into the user MetaMask
       if (error.code === 4902) {
         try {
-          if (chainId === 5) {
+          if (chainId === 11155111) {
             await provider.request({
               method: "wallet_addEthereumChain",
               params: [
                 {
                   chainId: `0x${chainId.toString(16)}`,
-                  chainName: "Goerli test network",
+                  chainName: "Sepolia test network",
                   nativeCurrency: {
                     name: "ETH",
                     symbol: "GETH",
                     decimals: 18,
                   },
-                  rpcUrls: ["https://goerli.infura.io/v3/"],
-                  blockExplorerUrls: [`https://goerli.etherscan.io/`],
+                  rpcUrls: ["https://sepolia.infura.io/v3/"],
+                  blockExplorerUrls: [`https://sepolia.etherscan.io/`],
                 },
               ],
             });

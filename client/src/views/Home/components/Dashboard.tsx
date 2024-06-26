@@ -319,15 +319,15 @@ function Dashboard() {
   return (
     <>
       <div className="dashboard">
-        <img className="floating-item gear-0" src={Gear0} />
-        <img className="floating-item gear-1" src={Gear1} />
-        <img className="floating-item gear-2" src={Gear2} />
-        <img className="floating-item gear-3" src={Gear3} />
-        <img className="floating-item gear-4" src={Gear4} />
-        <img className="floating-item gear-5" src={Gear5} />
-        <img className="floating-item gear-6" src={Gear6} />
-        <img className="floating-item gear-7" src={Gear7} />
-        <img className="floating-item gear-8" src={Gear8} />
+        <img alt="" className="floating-item gear-0" src={Gear0} />
+        <img alt="" className="floating-item gear-1" src={Gear1} />
+        <img alt="" className="floating-item gear-2" src={Gear2} />
+        <img alt="" className="floating-item gear-3" src={Gear3} />
+        <img alt="" className="floating-item gear-4" src={Gear4} />
+        <img alt="" className="floating-item gear-5" src={Gear5} />
+        <img alt="" className="floating-item gear-6" src={Gear6} />
+        <img alt="" className="floating-item gear-7" src={Gear7} />
+        <img alt="" className="floating-item gear-8" src={Gear8} />
 
         <div className="dashboard-man">
           <img src={Man} alt="old man" />
@@ -347,7 +347,7 @@ function Dashboard() {
           <div className="overlie factory-cursor active" onClick={async () => {
             handleFactory(true);
           }}></div>
-          <div className="overlie casino-cursor active" onClick={async () => {
+          <div className="overlie casino-cursor active" onClick={async (e) => {
             openWarnModal(e); // handleCasino(true);
           }}></div>
           <div className="overlie pawn-shop-cursor" onClick={async (e: any) => {
