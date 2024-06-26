@@ -46,7 +46,7 @@ yarn start
 <br>
 
 
-<h1>#### After I fixed the bug in the client, I immediately tested it on Postmant and I didn't find any errors</h1>
+<h1>#### After I fixed the bug in the client, I immediately tested the server in Postmant and didn't find any errors</h1>
 <br>
 
 <h2>1. testing on the /api/traits url</h2>
