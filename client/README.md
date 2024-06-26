@@ -19,20 +19,20 @@ yarn start
 <h2>1. I changed my node version to v18.20.3 before installing the package </h2>
 <br>
 
-<h2>2. when I wanted to install the package I got an error that the versions of history and connect-react-roter did not match so I fixed it from history@^5.3.0 to history@^4.7.2 and connected-react-router@^6.7.2 to connected- react-router@^6.7.3</h2>
+<h2>2. when I want to install the package I got an error that the versions of history and connect-react-roter did not match so I fixed it from <b>history@^5.3.0</b> to <b>history@^4.7.2</b> and <b>connected-react-router@^6.7.2</b> to <b>connected- react-router@^6.7.3</b></h2>
 <img src="./src/assets/img-report/change-history-and-connect.png"/>
 <br>
 
-<h2>3. I fixed a bug in client\src\assets\sass\enigma_labs_el.scss</h2>
+<h2>3. I fixed a bug in "client\src\assets\sass\enigma_labs_el.scss"</h2>
 <img src="./src/assets/img-report/resolve-sass-file.png"/>
 <br>
 
-<h2> 4. After I fixed \_el.scss I got the error again in client\src\views\Home\components\Dashboard.tsx that the function openWarnModal(e); An error occurred because it did not send parameters when clicked
+<h2> 4. After I fixed <b>_el.scss</b> I got the error again in <b>client\src\views\Home\components\Dashboard.tsx</b> that the function openWarnModal(e); An error occurred because it did not send parameters when clicked
 </h2>
 <img src="./src/assets/img-report/resolveWarmOpenModal.png"/>
 <br>
 
-<h2>5. After I fixed the error the program ran smoothly, but when I wanted to connect the wallet an error occurred that Goerli was no longer supported so I changed the network from Goerli to Sepolia</h2>
+<h2>5. After I fixed the error the program ran smoothly, but when I wanted to connect the wallet an error occurred that Goerli was no longer supported so I changed the network from <b>Goerli</b> to <b>Sepolia</b></h2>
 <br>
 <h2>changing the network to sepolia: </h2>
 <br>
